@@ -1,0 +1,142 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.banner {
+  background-image: url(../images/monkey.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.banner h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-shadow: 15px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+.banner p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  opacity: 0.8;
+}
+
+.banner .btn {
+  background-color: #fff;
+  color: #000;
+  padding: 10px 30px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+
+.banner .btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgb(230,230,230);
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgb(230,230,230);
+    transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px rgb(230,230,230);
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+
+.card p {
+  opacity: .5;
+}
+
+.card p:hover {
+  opacity: 1;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #2c2b2b;
+}
+
+.links {
+  color: #fff;
+  opacity: 0.5;
+}
+
+.links i {
+  color: #fff;
+  opacity: 0.5;
+  margin: 0 10px;
+  font-size: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.links i:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.label {
+  background-color: #000;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  display: inline-block;
+}
